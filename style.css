@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+/* registration form styling start */
+ #registration_form{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:5vh;
+} 
+h2{
+    margin-bottom:5vh;
+}
+label{
+    font-weight: bold;
+}
+label::after{
+    content: '*';
+    color: red;
+}
+input{
+    width:30vw;
+    padding:10px 0;
+    border-radius:10px;
+    outline: none;
+    border: 0.5px solid gray;
+    text-align: center;
+    margin-bottom: 10px;
+}
+div{
+    display: flex;
+    flex-direction: column;
+    gap:2px;
+}
+button{
+    width: 100%;
+    padding: 5px 30px;
+    border-radius:10px;
+    border: none;
+    background-color:#4CAF50;
+    color: white;
+}
+/* Registration form styling end */
+
+/* table styling start */
+table{
+    width:100%;
+    border-collapse: collapse;
+}
+th{
+    background-color: rgba(128, 128, 128, 0.233);
+}
+th, td{
+    border:1px solid gray;
+    border-collapse: collapse;
+    text-align: center;
+    padding:5px;
+}
+
